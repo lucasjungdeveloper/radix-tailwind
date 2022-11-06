@@ -18,6 +18,7 @@
     "incremental": false,
     "noUncheckedIndexedAccess": true
   },
-  "include": ["src"],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.cjs", "**/*.mjs"],
+  "exclude": ["node_modules", "dist"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

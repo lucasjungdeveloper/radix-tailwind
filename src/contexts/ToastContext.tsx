@@ -1,10 +1,12 @@
-import { createContext, ReactNode, useState } from 'react'
 import {
   RadixToast,
   RadixToastProvider,
   RadixToastViewport,
-  Toast,
 } from '../components/Toast'
+import { createContext, useState } from 'react'
+
+import type { ReactNode } from 'react'
+import type { Toast } from '../components/Toast'
 
 type ToastContextProps = (toast: Toast) => void
 

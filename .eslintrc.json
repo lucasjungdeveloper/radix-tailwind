@@ -1,0 +1,21 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint", "autofix"],
+  "extends": ["plugin:@typescript-eslint/recommended", "prettier"],
+  "rules": {
+    "@typescript-eslint/consistent-type-imports": "warn",
+    "sort-imports": [
+      "error",
+      {
+        "ignoreCase": false,
+        "ignoreDeclarationSort": false,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"],
+        "allowSeparatedGroups": false
+      }
+    ]
+  }
+}
