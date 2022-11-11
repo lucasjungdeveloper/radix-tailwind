@@ -1,6 +1,6 @@
 import { useToast } from '../hooks/useToast'
 
-export const Toast = () => {
+export const ToastPage = () => {
   const toast = useToast()
 
   return (

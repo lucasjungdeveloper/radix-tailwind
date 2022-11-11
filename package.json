@@ -10,6 +10,7 @@
     "lint": "eslint --ext .js,.jsx,.ts,.tsx, src"
   },
   "dependencies": {
+    "@radix-ui/react-select": "^1.1.1",
     "@radix-ui/react-toast": "^1.1.1",
     "@types/lodash.debounce": "^4.0.7",
     "lodash.debounce": "^4.0.8",
